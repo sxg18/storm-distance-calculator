@@ -29,4 +29,7 @@ calculate_button.pack()
 result_label = tk.Label(window, text="")
 result_label.pack()
 
+icon = tk.PhotoImage(file='StormDistanceCalculator.png')
+window.iconphoto(False, icon)
+
 window.mainloop()
